@@ -48,20 +48,20 @@ const Tickets = ({
         }}
       >
         <div className={styles.descriptions}>
-          <p className={styles.descChild}>
+          <p className={styles.descChild1}>
             {name}
             <span> | </span>
             {title}
           </p>
         </div>
         <div className={styles.descriptions2}>
-          <p className={styles.descChild}>
+          <p className={styles.descChild2}>
             {date} <span> {time}</span>{" "}
             <span>
               {" "}
-              <Dot style={{ fontSize: `1.5rem` }} />{" "}
+              <Dot style={{ fontSize: `1.0rem` }} />{" "}
             </span>
-            {venue}
+            <span>{venue}</span>
           </p>
         </div>
       </div>

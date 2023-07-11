@@ -6,9 +6,10 @@
 }
 .cards {
   display: flex;
-  margin-left: ;
+
   padding: 0px 0px;
   overflow-x: scroll;
+  overscroll-behavior: none;
 }
 
 .radio {
