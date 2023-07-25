@@ -1,7 +1,7 @@
 import styles from "./Ticket.module.css";
 import { Link } from "react-router-dom";
 
-import { Dot, Ticket } from "react-bootstrap-icons";
+import { Dot } from "react-bootstrap-icons";
 import apple from "./apple.png";
 import tmVerified from "./tmLogo.png";
 
